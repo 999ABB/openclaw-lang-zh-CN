@@ -14,9 +14,19 @@ OpenClaw 简体中文语言包，为 OpenClaw 项目提供完整的简体中文�
    git clone https://github.com/999ABB/openclaw-lang-zh-CN.git
    ```
 
-2. 将语言包文件复制到 OpenClaw 项目的语言包目录中。
+2. 将语言包文件复制到 OpenClaw 项目的语言包目录中：plugins
+cp -r openclaw-lang-zh-CN ~/.openclaw/plugins/
 
-3. 在 OpenClaw 配置中选择简体中文作为界面语言。
+3. 在 OpenClaw 配置中选择简体中文作为界面语言：~/.openclaw/config.json
+{
+  "i18n": {
+    "defaultLanguage": "zh-CN"
+  }
+}
+
+4.重启OpenClaw服务：
+openclaw restart
+
 
 ## 贡献指南
 
