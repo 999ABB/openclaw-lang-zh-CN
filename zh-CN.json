@@ -1,0 +1,49 @@
+{
+  "core": {
+    "welcome": "欢迎使用OpenClaw!",
+    "help": "帮助",
+    "commands": "命令",
+    "settings": "设置",
+    "exit": "退出",
+    "status": "状态",
+    "error": {
+      "generic": "发生错误",
+      "command_not_found": "未找到命令: {command}",
+      "permission_denied": "权限不足",
+      "file_not_found": "文件未找到: {path}",
+      "tool_failed": "工具执行失败"
+    }
+  },
+  "commands": {
+    "help": {
+      "description": "显示帮助信息",
+      "response": "可用命令: {commands}"
+    },
+    "status": {
+      "description": "显示系统状态",
+      "response": "系统状态正常 | 运行时间: {uptime}"
+    },
+    "plugins": {
+      "description": "管理插件",
+      "list": "已安装插件",
+      "loaded": "已加载 {count} 个插件"
+    }
+  },
+  "tools": {
+    "read": "读取文件",
+    "write": "写入文件",
+    "exec": "执行命令",
+    "search": "搜索",
+    "browser": "浏览器控制"
+  },
+  "ai": {
+    "thinking": "思考中...",
+    "processing": "处理中",
+    "completed": "已完成",
+    "error": "AI处理出错"
+  },
+  "plugins": {
+    "loading": "正在加载插件: {name}",
+    "unloading": "正在卸载插件: {name}"
+  }
+}
