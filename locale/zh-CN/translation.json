@@ -52,7 +52,8 @@
     "billing": "账单",
     "usage": "使用情况",
     "support": "支持",
-    "documentation": "文档"
+    "documentation": "文档",
+    "settings": "设置"
   },
   "chat": {
     "new_chat": "新对话",
