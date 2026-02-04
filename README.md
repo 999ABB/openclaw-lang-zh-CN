@@ -71,4 +71,4 @@ openclaw restart
 
 ### 方法1：通过OpenClaw插件管理器安装
 ```bash
-openclaw plugins install https://github.com/openclaw-community/openclaw-lang-zh-CN
+openclaw plugins install https://github.com/999ABB/openclaw-lang-zh-CN
