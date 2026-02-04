@@ -1,0 +1,22 @@
+{
+  "name": "openclaw-lang-zh-cn",
+  "version": "1.0.0",
+  "description": "OpenClaw简体中文语言包",
+  "main": "install.js",
+  "keywords": ["openclaw", "i18n", "chinese", "language"],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "openclaw": {
+    "languagePack": true,
+    "locales": {
+      "zh-CN": "./locales/zh-CN.json"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw-community/openclaw-lang-zh-CN"
+  },
+  "bugs": {
+    "url": "https://github.com/openclaw-community/openclaw-lang-zh-CN/issues"
+  }
+}
